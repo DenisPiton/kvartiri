@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
-
+#include "classesr.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	int lenght;
+	cin >> lenght;
+	int lenght1;
+	cin >> lenght1;
+	Apartament a(lenght, lenght1);
+	Assign(a, lenght);
+	Assign_w(a, lenght1);
+	a.Raschet();
+
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
